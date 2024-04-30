@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Surya Movies</title>
+    
+    <style>
+        .wrapper{
+            /* display: flex; */
+            /* width: 450px; */
+            width: auto;
+            height: auto;
+            gap: 10px;
+            display:grid;
+            grid-row-gap:20px;
+            grid-template-columns: auto auto ;
+            flex-wrap: wrap;          
+            /* border: 2px solid; */
+            
+            
+        }
+        
+        img:hover{
+            transform: scale(1.04);
+            transition: 3s;
+            
+        
+        }
+        .container2:hover{
+            box-shadow: 0 0 20px rgba(0, 4, 253, 0.993); 
+            
+
+        }
+        /* ---------------------------------------------------------------------------------------------------------- */
+        .container2{
+            border: 2px solid color-mix(in srgb, rgb(4, 136, 4) 50%, yellow 50%);
+            /* border-top: 5px solid rgba(255, 0, 0, 0.7);  */
+            border-left: 2px solid rgba(255, 255, 0, 0.7); /* Yellow left border */
+  border-right: 2px solid rgba(0, 255, 0, 0.7); /* Green right border */
+  
+  border-left: 2px solid rgba(255, 255, 0, 0.7); /* Yellow left border */
+            
+            width: 200px;
+            height: 400px;
+            /* margin: auto; */
+            background-color: black;
+            transition: box-shadow 0.3s ease;
+        }
+        .card1{
+            width: 50px;
+            height:150px;
+           
+        }
+        
+        .card2{
+            /* position: relative; */
+            width: 200px;
+            height: 3px;
+            margin-top: 80%;
+        }
+        
+        img{
+            padding-top: 0%;
+            width: 200px;
+            height: 305px;
+        }
+        
+        img:hover{
+            transform: scale(1.03);
+            transition: 3s;
+            
+        }   
+        a{
+            color: blue;
+        }
+        .card2:hover{
+            text-shadow: 0 0 50px black;
+        }
+        a::before{
+            color: blue;
+        }
+        a::after{
+            color: purple;
+        }
+        a:hover{
+            color:red;
+        }
+        h1:hover{
+            color:blue;
+            background-color: yellow;
+            border: 2px solid;
+            border-radius: 20px;
+        }
+        #qlty{
+            width: 95%;
+            height: 30px;
+            margin-left: 2%;
+    opacity: 0;
+    background-color: #bde605;
+    border-radius: 5px;
+    color: #f80101;
+  }
+  /* #qlty:hover{
+    opacity: 1;
+  } */
+  .container2:hover #qlty{
+    opacity: 1;
+  }
+  .container2:hover .card2{
+    opacity: 0;
+  }
+
+  #qlty:hover{
+    color:blue;
+    background-color: aliceblue;
+    box-shadow: 0 0 15px rgb(51, 255, 0);
+    transform: scale(1.06);
+  }
+  
+
+        /* ---------------------------------------------------------------------------------------------------- */
+        
+        
+ 
+
+  .inn{
+    width: 150px;height: 30px; background-color: red;text-align: center;padding-top: 8px ; border-radius: 10px ;font-size: larger ;font-weight: bolder;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .last button{
+   
+   width: 18.6%;height: 35px;background-color: #0f0f0f;color: white;border-radius: 0px;border: 1px solid whitesmoke;
+
+ }
+ .last button:hover{
+   background-color: orange;color: green;font-size: larger;font-weight: bolder;font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+    </style>
+
+    
+</head>
+<body> 
+
+    <!-- <div style="background-color: aqua;position: absolute;"><h3 >Only 720p available</h3></div> -->
+   
+
+    <div class="heading1" id="heading1" style="text-align: center;margin-left: 20%; background-color: blue;color: yellow;width: auto;"><h1 >SURYA MOVIES</h1></div>
+    
+    <div id="movsel" style="display: flex; margin-left: 30%; gap: 13px;">
+       <a class="" href=""> <div class="inn" style="background-color: #01f822;" >Bollywood</div></a>
+       <a class="" href=""> <div class="inn" style=" background-color: #bde605;" >SouthMovies</div></a>
+       <a class="" href=""> <div class="inn" style="background-color: cyan; ">Hollywood</div></a>
+        <!-- <div></div> -->
+    </div><br>
+
+    <div class="wrapper">
+
+         <!-- ---------------------------------------------------------------------------- -->
+        <!-- 1st movie -->
+    <div class="container2">
+
+        <!-- <a href="https://pixeldra.in/api/file/Fkk6U939?download"> -->
+        <div class="card1">
+            <img src="https://image.tmdb.org/t/p/w400/uPpmBjY3znUqGY8kYwI5xvOrSc0.jpg" alt="">
+        </div>
+
+        <div class="card2">
+            <h4 style="color: white; font-size: 16.3px;">Premalu (2024) WEB-DL [Hindi (ORG 5.1) + Malayalam] 1080p 720p Dual Audio| Full Movie</h4>
+        </div>
+        
+      <a href="https://pixeldrain.net/api/file/h8dMScU1?download"><div> <button id="qlty" style=" margin-bottom: 1px; position: relative;"><span style="font-size: large;font-family:Verdana, Geneva, Tahoma, sans-serif;">720p</span></button></div><br> </a> 
+      <a href="https://pixeldrain.net/api/file/h8dMScU1?download"><div> <button id="qlty" style=" margin-bottom: 1px; position: relative;"><span style="font-size: large;font-family:Verdana, Geneva, Tahoma, sans-serif;">1080p</span></button></div><br> </a> 
+   
+      <!-- </a> -->
+    </div>
+    <!-- ----------------------------------------------------------------------------- -->
+         <!-- ---------------------------------------------------------------------------- -->
+        <!-- 1st movie -->
+    <div class="container2">
+
+        <!-- <a href="https://pixeldra.in/api/file/Fkk6U939?download"> -->
+        <div class="card1">
+            <img src="https://image.tmdb.org/t/p/w400/jNvYVtRm1rvEYGLqBibL6b3Hhrv.jpg" alt="">
+        </div>
+
+        <div class="card2">
+            <h4 style="color: white; font-size: 16.3px;">Operation Valentine (2024) WEB-DL [Hindi DD5.1] 1080p 720p & 480p [x264/HEVC] | Full Movie</h4>
+        </div>
+        
+      <a href="https://pixeldrain.net/api/file/boyWscuT?download"><div> <button id="qlty" style=" margin-bottom: 1px; position: relative;"><span style="font-size: large;font-family:Verdana, Geneva, Tahoma, sans-serif;">720p</span></button></div><br> </a> 
+      <a href="https://pixeldrain.net/api/file/boyWscuT?download"><div> <button id="qlty" style=" margin-bottom: 1px; position: relative;"><span style="font-size: large;font-family:Verdana, Geneva, Tahoma, sans-serif;">1080p</span></button></div><br> </a> 
+   
+      <!-- </a> -->
+    </div>
+    <!-- ----------------------------------------------------------------------------- -->
+     <!-- ---------------------------------------------------------------------------- -->
+        <!-- 1st movie -->
+        <div class="container2">
+
+            <!-- <a href="https://pixeldra.in/api/file/Fkk6U939?download"> -->
+            <div class="card1">
+                <img src="https://cdn.gulte.com/wp-content/uploads/2024/03/tillu.jpg" alt="">
+            </div>
+    
+            <div class="card2">
+                <h4 style="color: white; font-size: 16.3px;">Tillu Square (2024) WEB-DL [Hindi DD5.1] 1080p 720p & 480p [x264/HEVC] | Full Movie</h4>
+            </div>
+            
+          <a href="https://pixeldrain.net/api/file/vHzvsTvK?download"><div> <button id="qlty" style=" margin-bottom: 1px; position: relative;"><span style="font-size: large;font-family:Verdana, Geneva, Tahoma, sans-serif;">720p</span></button></div><br> </a> 
+          <a href="https://pixeldrain.net/api/file/vHzvsTvK?download"><div> <button id="qlty" style=" margin-bottom: 1px; position: relative;"><span style="font-size: large;font-family:Verdana, Geneva, Tahoma, sans-serif;">1080p</span></button></div><br> </a> 
+       
+          <!-- </a> -->
+        </div>
+        <!-- ----------------------------------------------------------------------------- -->
+        
+        <!-- ---------------------------------------------------------------------------- -->
+        <!-- 1st movie -->
+    <div class="container2">
+
+        <!-- <a href="https://pixeldra.in/api/file/Fkk6U939?download"> -->
+        <div class="card1">
+            <img src="https://image.tmdb.org/t/p/w400/7Sg769JoGe645odkAT7sO8rnO9Q.jpg" alt="">
+        </div>
+
+        <div class="card2">
+            <h4 style="color: white; font-size: 16.3px;">Yodha (2024) WEB-DL [Hindi DD5.1] 4K 1080p 720p & 480p [x264/HEVC] | Full Movie</h4>
+        </div>
+        
+      <a href="https://pixeldrain.net/api/file/j2pfoEZe?download"><div> <button id="qlty" style=" margin-bottom: 1px; position: relative;"><span style="font-size: large;font-family:Verdana, Geneva, Tahoma, sans-serif;">720p</span></button></div><br> </a> 
+      <a href="https://pixeldrain.net/api/file/j2pfoEZe?download"><div> <button id="qlty" style=" margin-bottom: 1px; position: relative;"><span style="font-size: large;font-family:Verdana, Geneva, Tahoma, sans-serif;">1080p</span></button></div><br> </a> 
+   
+      <!-- </a> -->
+    </div>
+    <!-- ----------------------------------------------------------------------------- -->
+     <!-- ---------------------------------------------------------------------------- -->
+        <!-- 1st movie -->
+        <div class="container2">
+
+            <!-- <a href="https://pixeldra.in/api/file/Fkk6U939?download"> -->
+            <div class="card1">
+                <img src="https://image.tmdb.org/t/p/w400/cpDtEjfzys5p8f5cv1T9l8Iqjel.jpg" alt="">
+            </div>
+    
+            <div class="card2">
+                <h4 style="color: white; font-size: 16.3px;">Mission: Chapter 1 (2024) WEB-DL [Hindi DD2.0] 1080p 720p & 480p [x264/HEVC] | Full Movie</h4>
+            </div>
+            
+          <a href="https://pixeldrain.net/api/file/yCvwjeUv?download"><div> <button id="qlty" style=" margin-bottom: 1px; position: relative;"><span style="font-size: large;font-family:Verdana, Geneva, Tahoma, sans-serif;">720p</span></button></div><br> </a> 
+          <a href="https://pixeldrain.net/api/file/yCvwjeUv?download"><div> <button id="qlty" style=" margin-bottom: 1px; position: relative;"><span style="font-size: large;font-family:Verdana, Geneva, Tahoma, sans-serif;">1080p</span></button></div><br> </a> 
+       
+          <!-- </a> -->
+        </div>
+        <!-- ----------------------------------------------------------------------------- -->
+        <!-- 1st movie -->
+    <div class="container2">
+
+        <!-- <a href="https://pixeldra.in/api/file/Fkk6U939?download"> -->
+        <div class="card1">
+            <img src="https://image.tmdb.org/t/p/w400/iWqcOxLbpHXMBdxTUPPDzmrptAx.jpg" alt="">
+        </div>
+
+        <div class="card2">
+            <h4 style="color: white; font-size: 16.3px;">Rudhran (2023) WEB-DL [Hindi DD5.1] 4K 1080p 720p & 480p [x264/HEVC] | Full Movie [DS4K]</h4>
+        </div>
+        
+      <a href="https://pixeldra.in/api/file/Fkk6U939?download"><div> <button id="qlty" style=" margin-bottom: 1px; position: relative;"><span style="font-size: large;font-family:Verdana, Geneva, Tahoma, sans-serif;">720p</span></button></div><br> </a> 
+      <a href="https://pixeldra.in/api/file/Fkk6U939?download"><div> <button id="qlty" style=" margin-bottom: 1px; position: relative;"><span style="font-size: large;font-family:Verdana, Geneva, Tahoma, sans-serif;">1080p</span></button></div><br> </a> 
+   
+      <!-- </a> -->
+    </div>
+<!-- 2nd movie -->
+    <div class="container2">
+
+        <a href="https://pixeldra.in/api/file/591XR5up?download">
+        <div class="card1">
+            <img class="img2" src="https://image.tmdb.org/t/p/w400/zDZowwb9GZGEctAu2PCpjiPQAMM.jpg" alt="">
+        </div>
+
+        <div class="card2">
+            <h4 style="color: white; font-size: 16.3px;">Fighter (2024) WEB-DL [Hindi DD5.1] 1080p 720p & 480p [x264/HEVC] | Full Movie</h4>
+        </div></a>
+    </div>
+
+
+    <!-- 3rdmovie -->
+    <div class="container2">
+
+        <a href="https://pixeldra.in/api/file/SpMFWquw?download">
+        <div class="card1">
+            <img class="img2" src="https://image.tmdb.org/t/p/w400/eKbAVKQf6choCfasNWuYoSTOPBP.jpg" alt="">
+        </div>
+
+        <div class="card2">
+            <h4 style="color: white; font-size: 16.3px;">Fighter (2024) WEB-DL [Hindi DD5.1] 1080p 720p & 480p [x264/HEVC] | Full Movie</h4>
+        </div>
+        </a>
+    </div>
+
+    <!-- 4th movie -->
+
+    <div class="container2">
+
+        <a href="https://pixeldrain.net/api/file/6XWhGLNw?download">
+        <div class="card1">
+            <img class="img2" src="https://image.tmdb.org/t/p/w400/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg" alt="">
+        </div>
+
+        <div class="card2">
+            <h4 style="color: white; font-size: 16.3px;">Download Kung Fu Panda 4 (2024) WEB-DL [Hindi + English] 720p & 480p Dual Audio| Full Movie</h4>
+        </div>
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 1st movie -->
+<div class="container2">
+
+    <a href="https://pixeldra.in/api/file/3pWDiK3G?download">
+    <div class="card1">
+        <img src="https://image.tmdb.org/t/p/w400/9VTemjHMpyxzfC3JsG2aFy8Bf9Y.jpg" alt="">
+    </div>
+
+    <div class="card2">
+        <h4 style="color: white; font-size: 16.3px;">Article 370 (2024) WEB-DL [Hindi DD5.1] 1080p 720p & 480p [x264/HEVC] | Full Movie</h4>
+    </div>
+</a>
+</div>
+<!-- 2nd movie -->
+<div class="container2">
+
+    <a href="https://pixeldra.in/api/file/4WNYoikU?download">
+    <div class="card1">
+        <img class="img2" src="https://image.tmdb.org/t/p/w400/gpHjWVPf8h8i40zOLBWKbkZGvW5.jpg" alt="">
+    </div>
+
+    <div class="card2">
+        <h4 style="color: white; font-size: 16.3px;">Siren (2024) WEB-DL [Hindi DD5.1] 4K 1080p 720p & 480p [x264/HEVC] | Full Movie [DS4K]</h4>
+    </div></a>
+</div>
+
+
+<!-- 3rdmovie -->
+<div class="container2">
+
+    <a href="https://pixeldrain.net/api/file/awHWGekX?download">
+    <div class="card1">
+        <img class="img2" src="https://image.tmdb.org/t/p/w400/iIoCN7FAlMm8sVbCse9w0T9Bp82.jpg" alt="">
+    </div>
+
+    <div class="card2">
+        <h4 style="color: white; font-size: 16.3px;">Silence 2: The Night Owl Bar ShootOut (2024) WEB-DL [Hindi DD5.1]  1080p 720p & 480p  | Full Movie</h4>
+    </div>
+    </a>
+</div>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+<div class="last" style="width: 250px;background-color: #0f0f0f;height: 35px; margin-left: 30%;border: 1px solid">
+    <a  href="one.html"><button  style="">1</button></a>
+    <a href=""><button  style="width: 18.6%;height: 35px;">2</button></a>
+    <a href=""><button style="width: 18.6%;height: 35px;">3</button></a>
+    <a href=""><button style="width: 18.6%;height: 35px;">4</button></a>
+    <a href=""><button style="width: 18.6%;height: 35px;">Next</button></a>
+</div>
+    
+
+
+
+</div>
+<hr width="auto">
+<div class="foot" style="margin-left: 10px;">
+    <h4>Copyright &copy; 2024 ......Made with &hearts;(sunny&#128578;)</h4>
+</div>
+<hr width="auto">
+
+
+
+
+</body>
+</html>
